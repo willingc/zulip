@@ -6,11 +6,11 @@ Using Vagrant
 
 This is the recommended approach, and is tested on OS X 10.10 as well as Ubuntu 14.04.
 
-* If your host is OS X, download VirtualBox from
-  <http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg>
+* If your host is OS X, download VirtualBox from:
+  [http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg]
   and install it.
 * If your host is Ubuntu 14.04:
-  sudo apt-get install vagrant lxc lxc-templates cgroup-lite redir && vagrant plugin install vagrant-lxc
+  `sudo apt-get install vagrant lxc lxc-templates cgroup-lite redir && vagrant plugin install vagrant-lxc`
 
 Once that's done, simply change to your zulip directory and run
 `vagrant up` in your terminal.  That will install the development
@@ -87,7 +87,7 @@ To start the development server:
 ./tools/run-dev.py
 ```
 
-… and hit http://localhost:9991/.
+… and hit [http://localhost:9991/].
 
 
 Running the test suite
@@ -140,7 +140,7 @@ Zulip welcomes all forms of contributions!
 Before a pull request can be merged, you need to to sign the [Dropbox
 Contributor License Agreement](https://opensource.dropbox.com/cla/).
 
-Please run the tests (tools/test-all) before submitting your pull
+Please run the tests (`tools/test-all`) before submitting your pull
 request.
 
 Zulip has a growing collection of developer documentation including
