@@ -6,13 +6,13 @@ Using Vagrant
 
 This is the recommended approach, and is tested on OS X 10.10 as well as Ubuntu 14.04.
 
-* If your host is OS X, download VirtualBox from:
-  [http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg]
+* If your host is OS X, download VirtualBox from
+  (http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg)
   and install it.
-* If your host is Ubuntu 14.04:
+* If your host is Ubuntu 14.04::
   `sudo apt-get install vagrant lxc lxc-templates cgroup-lite redir && vagrant plugin install vagrant-lxc`
 
-Once that's done, simply change to your zulip directory and run
+Once that's done, simply change to your `zulip` directory and run
 `vagrant up` in your terminal.  That will install the development
 server inside a Vagrant guest.
 
@@ -26,7 +26,7 @@ source /srv/zulip-venv/bin/activate
 ./tools/run-dev.py --interface=''
 ```
 
-You can now visit <http://localhost:9991/> in your browser.  To get
+You can now visit (http://localhost:9991/) in your browser.  To get
 shell access to the virtual machine running the server, use `vagrant ssh`.
 
 (A small note on tools/run-dev.py: the `--interface=''` option will make
